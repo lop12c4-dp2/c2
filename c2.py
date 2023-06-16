@@ -563,7 +563,7 @@ def downloadsocks(choice):
 	if choice == "4":
 		f = open("socks4.txt",'wb')
 		try:
-			r = requests.get("https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt",timeout=5)
+			r = requests.get("https://raw.githubusercontent.com/lop12c4-dp2/c2/main/proxylive.txt",timeout=5)
 			f.write(r.content)
 			f.close()
 		except:
@@ -590,7 +590,7 @@ def downloadsocks(choice):
 	if choice == "5":
 		f = open("socks5.txt",'wb')
 		try:
-			r = requests.get("https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt",timeout=5)
+			r = requests.get("https://raw.githubusercontent.com/lop12c4-dp2/c2/main/proxylive.txt",timeout=5)
 			f.write(r.content)
 			f.close()
 		except:
